@@ -1,0 +1,7 @@
+# create sensor mounts and cameras
+Radar_1_mount = visnodes.VisTransform.createTransformNode(r"Radar_1_mount")
+scene.Ford_Focus_Stationwagon_1.addChild(Radar_1_mount)
+scene.getTransformChild("Radar_1_mount")
+Radar_1_mount.setTranslation(3.65000009536743, 0, 0.5)
+Radar_1_mount.setRotation(0, 1, 0, 0)
+
